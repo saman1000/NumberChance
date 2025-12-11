@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: number_chance
+Version: 0.0.1
+Summary: generates numbers based on past frequencies
+Author-email: saman1000 <saman1000@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/saman1000
+Project-URL: Issues, https://github.com/saman1000/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12.0
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: fastapi>=0.121.0
+Requires-Dist: boto3>=1.41.0
+Dynamic: license-file

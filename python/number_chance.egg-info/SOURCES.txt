@@ -1,0 +1,7 @@
+LICENCE.txt
+pyproject.toml
+number_chance.egg-info/PKG-INFO
+number_chance.egg-info/SOURCES.txt
+number_chance.egg-info/dependency_links.txt
+number_chance.egg-info/requires.txt
+number_chance.egg-info/top_level.txt
