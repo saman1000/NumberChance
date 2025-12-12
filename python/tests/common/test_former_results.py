@@ -1,7 +1,7 @@
 import unittest
 
 from chancecommon import InvalidResultError
-from chancecommon.former_results import FormerResults
+from chancecommon import FormerResults
 
 
 class TestFormerResults(unittest.TestCase):
