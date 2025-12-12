@@ -5,6 +5,7 @@ src/chanceapi/number_generator.py
 src/chanceapi/models/__init__.py
 src/chanceapi/models/responses.py
 src/chancecommon/__init__.py
+src/chancecommon/exceptions.py
 src/chancecommon/former_results.py
 src/number_chance.egg-info/PKG-INFO
 src/number_chance.egg-info/SOURCES.txt

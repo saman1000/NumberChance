@@ -15,4 +15,6 @@ License-File: LICENCE.txt
 Requires-Dist: fastapi[standard]>=0.122.0
 Requires-Dist: boto3>=1.41.0
 Requires-Dist: pandas
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
 Dynamic: license-file
