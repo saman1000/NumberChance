@@ -21,9 +21,39 @@ dependencies = [
     "pandas"
 ]
 
+[project.optional-dependencies]
+test = [
+    "coverage", # for coverage reporting
+]
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 
 [project.urls]
 Homepage = "https://github.com/saman1000"
 Issues = "https://github.com/saman1000/issues"
+
+[tool.coverage.run]
+# Specify the source code directories to measure
+# This ensures that even files not imported during tests are included in the report
+source = ["src"]
+# Example of omitting files or directories from measurement
+# omit = ["src/migrations/*", "venv/*"]
+
+[tool.coverage.report]
+# Fail if the overall coverage is below this threshold
+fail_under = 70
+# Show lines that were missed in the terminal report
+show_missing = true
+# Exclude specific code constructs from the report (e.g., untestable __repr__ functions)
+#exclude_lines = [
+#    "if __name__ == .__main__.:",
+#    "def __repr__",
+#    "pragma: no cover",
+#]
+
+[tool.coverage.html]
+# Specify the output directory for the HTML report (defaults to htmlcov)
+directory = "html_report"
+# Optional: skip files with 100% coverage
+# skip_covered = true
