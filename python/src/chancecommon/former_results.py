@@ -19,7 +19,6 @@ class FormerResults:
             raise InvalidResultError(result)
 
         try:
-            date_sections = sections.group(1)
             numbers_sections = sections.group(2)
             numbers = [int(number_text) for number_text in self._number_pattern.findall(numbers_sections)]
             if len(numbers) != self._expected_numbers:
