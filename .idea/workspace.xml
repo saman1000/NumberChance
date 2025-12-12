@@ -86,7 +86,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for common.test_former_results.TestFormerResults.test_extract_numbers_invalid_result">
+  <component name="RunManager" selected="Python tests.Python tests in tests">
     <configuration name="Python tests for common.former_results_test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="NumberChance" />
       <option name="ENV_FILES" value="" />
@@ -185,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for common.test_former_results.TestFormerResults.test_extract_numbers_invalid_result" />
         <item itemvalue="Python tests.Python tests in tests" />
+        <item itemvalue="Python tests.Unittests for common.test_former_results.TestFormerResults.test_extract_numbers_invalid_result" />
         <item itemvalue="Python tests.Unittests in test_former_results.py" />
         <item itemvalue="Python tests.Unittests for common.test_former_results.TestFormerResults.test_extract_numbers_valid_text2" />
         <item itemvalue="Python tests.Python tests in common" />
